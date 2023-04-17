@@ -26,17 +26,17 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/consensus/misc"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/filters"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/lucoadam/go-ethereum"
+	"github.com/lucoadam/go-ethereum/common"
+	"github.com/lucoadam/go-ethereum/common/hexutil"
+	"github.com/lucoadam/go-ethereum/common/math"
+	"github.com/lucoadam/go-ethereum/consensus/misc"
+	"github.com/lucoadam/go-ethereum/core/state"
+	"github.com/lucoadam/go-ethereum/core/types"
+	"github.com/lucoadam/go-ethereum/eth/filters"
+	"github.com/lucoadam/go-ethereum/internal/ethapi"
+	"github.com/lucoadam/go-ethereum/rlp"
+	"github.com/lucoadam/go-ethereum/rpc"
 )
 
 var (

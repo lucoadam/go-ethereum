@@ -21,14 +21,14 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/misc"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/lucoadam/go-ethereum/common"
+	"github.com/lucoadam/go-ethereum/consensus"
+	"github.com/lucoadam/go-ethereum/consensus/misc"
+	"github.com/lucoadam/go-ethereum/core/state"
+	"github.com/lucoadam/go-ethereum/core/types"
+	"github.com/lucoadam/go-ethereum/params"
+	"github.com/lucoadam/go-ethereum/rpc"
+	"github.com/lucoadam/go-ethereum/trie"
 )
 
 // Proof-of-stake protocol constants.

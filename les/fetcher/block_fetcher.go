@@ -25,13 +25,13 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/prque"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/trie"
+	"github.com/lucoadam/go-ethereum/common"
+	"github.com/lucoadam/go-ethereum/common/prque"
+	"github.com/lucoadam/go-ethereum/consensus"
+	"github.com/lucoadam/go-ethereum/core/types"
+	"github.com/lucoadam/go-ethereum/log"
+	"github.com/lucoadam/go-ethereum/metrics"
+	"github.com/lucoadam/go-ethereum/trie"
 )
 
 const (

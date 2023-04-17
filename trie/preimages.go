@@ -19,9 +19,9 @@ package trie
 import (
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/ethdb"
+	"github.com/lucoadam/go-ethereum/common"
+	"github.com/lucoadam/go-ethereum/core/rawdb"
+	"github.com/lucoadam/go-ethereum/ethdb"
 )
 
 // preimageStore is the store for caching preimages of node key.

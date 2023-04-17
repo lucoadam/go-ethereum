@@ -21,11 +21,11 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	cmath "github.com/ethereum/go-ethereum/common/math"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/lucoadam/go-ethereum/common"
+	cmath "github.com/lucoadam/go-ethereum/common/math"
+	"github.com/lucoadam/go-ethereum/core/types"
+	"github.com/lucoadam/go-ethereum/core/vm"
+	"github.com/lucoadam/go-ethereum/params"
 )
 
 // ExecutionResult includes all output after executing given evm

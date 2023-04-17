@@ -29,13 +29,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/simulations/adapters"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/lucoadam/go-ethereum/event"
+	"github.com/lucoadam/go-ethereum/log"
+	"github.com/lucoadam/go-ethereum/node"
+	"github.com/lucoadam/go-ethereum/p2p"
+	"github.com/lucoadam/go-ethereum/p2p/enode"
+	"github.com/lucoadam/go-ethereum/p2p/simulations/adapters"
+	"github.com/lucoadam/go-ethereum/rpc"
 	"github.com/mattn/go-colorable"
 )
 

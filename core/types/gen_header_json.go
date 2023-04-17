@@ -7,8 +7,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/lucoadam/go-ethereum/common"
+	"github.com/lucoadam/go-ethereum/common/hexutil"
 )
 
 var _ = (*headerMarshaling)(nil)
@@ -17,7 +17,7 @@ var _ = (*headerMarshaling)(nil)
 func (h Header) MarshalJSON() ([]byte, error) {
 	type Header struct {
 		ParentHash      common.Hash    `json:"parentHash"       gencodec:"required"`
-		UncleHash       common.Hash    `json:"sha3Uncles"       gencodec:"required"`
+		UncleHash       common.Hash    `json:"sha3Uncles"`
 		Coinbase        common.Address `json:"miner"`
 		Root            common.Hash    `json:"stateRoot"        gencodec:"required"`
 		TxHash          common.Hash    `json:"transactionsRoot" gencodec:"required"`
@@ -61,7 +61,7 @@ func (h Header) MarshalJSON() ([]byte, error) {
 func (h *Header) UnmarshalJSON(input []byte) error {
 	type Header struct {
 		ParentHash      *common.Hash    `json:"parentHash"       gencodec:"required"`
-		UncleHash       *common.Hash    `json:"sha3Uncles"       gencodec:"required"`
+		UncleHash       *common.Hash    `json:"sha3Uncles"`
 		Coinbase        *common.Address `json:"miner"`
 		Root            *common.Hash    `json:"stateRoot"        gencodec:"required"`
 		TxHash          *common.Hash    `json:"transactionsRoot" gencodec:"required"`
@@ -86,9 +86,9 @@ func (h *Header) UnmarshalJSON(input []byte) error {
 		return errors.New("missing required field 'parentHash' for Header")
 	}
 	h.ParentHash = *dec.ParentHash
-	if dec.UncleHash == nil {
-		return errors.New("missing required field 'sha3Uncles' for Header")
-	}
+	// if dec.UncleHash == nil {
+	// 	return errors.New("missing required field 'sha3Uncles' for Header")
+	// }
 	h.UncleHash = *dec.UncleHash
 	if dec.Coinbase != nil {
 		h.Coinbase = *dec.Coinbase

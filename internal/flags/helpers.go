@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/internal/version"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/lucoadam/go-ethereum/internal/version"
+	"github.com/lucoadam/go-ethereum/params"
 	"github.com/urfave/cli/v2"
 )
 

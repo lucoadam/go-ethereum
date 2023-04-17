@@ -25,10 +25,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/core/forkid"
-	"github.com/ethereum/go-ethereum/p2p/enr"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/lucoadam/go-ethereum/core/forkid"
+	"github.com/lucoadam/go-ethereum/p2p/enr"
+	"github.com/lucoadam/go-ethereum/params"
+	"github.com/lucoadam/go-ethereum/rlp"
 	"github.com/urfave/cli/v2"
 )
 
